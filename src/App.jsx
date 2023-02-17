@@ -5,31 +5,31 @@ import Counter from './components/Counter';
 function App() {
   const pets = [
     {
-      image: './src/assets/labrador.jpeg',
+      image: 'https://images.wagwalkingweb.com/media/daily_wag/blog_articles/hero/1670938235.1927571/fun-facts-about-labrador-retrievers.jpg',
       name: 'Goose',
       breed: 'Labrador',
       borderColor: 'red',
     },
     {
-      image: './src/assets/bulldog.jpeg',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bulldog_inglese.jpg/1200px-Bulldog_inglese.jpg',
       name: 'Rambo',
       breed: 'Bulldog',
       borderColor: 'blue',
     },
     {
-      image: './src/assets/german_shepherd.jpeg',
+      image: 'https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg',
       name: 'Rex',
       breed: 'German Shepherd',
       borderColor: 'green',
     },
     {
-      image: './src/assets/beagle.jpeg',
+      image: 'https://image.petmd.com/files/styles/863x625/public/2022-10/beagle-dog.jpg',
       name: 'Charlie',
       breed: 'Beagle',
       borderColor: 'yellow',
     },
     {
-      image: './src/assets/cocker_spaniel.jpeg',
+      image: 'https://media-be.chewy.com/wp-content/uploads/2021/05/05180433/Cocker-Spaniel_FeaturedImage-1024x615.jpg',
       name: 'Remi',
       breed: 'Cocker Spaniel',
       borderColor: 'orange',
