@@ -5,31 +5,31 @@ import Counter from './components/Counter';
 function App() {
   const pets = [
     {
-      image: '/src/assets/labrador.jpeg',
+      image: './src/assets/labrador.jpeg',
       name: 'Goose',
       breed: 'Labrador',
       borderColor: 'red',
     },
     {
-      image: '/src/assets/bulldog.jpeg',
+      image: './src/assets/bulldog.jpeg',
       name: 'Rambo',
       breed: 'Bulldog',
       borderColor: 'blue',
     },
     {
-      image: '/src/assets/german_shepherd.jpeg',
+      image: './src/assets/german_shepherd.jpeg',
       name: 'Rex',
       breed: 'German Shepherd',
       borderColor: 'green',
     },
     {
-      image: '/src/assets/beagle.jpeg',
+      image: './src/assets/beagle.jpeg',
       name: 'Charlie',
       breed: 'Beagle',
       borderColor: 'yellow',
     },
     {
-      image: '/src/assets/cocker_spaniel.jpeg',
+      image: './src/assets/cocker_spaniel.jpeg',
       name: 'Remi',
       breed: 'Cocker Spaniel',
       borderColor: 'orange',
