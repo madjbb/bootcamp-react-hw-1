@@ -1,35 +1,40 @@
 import './App.css';
 import List from './components/List';
 import Counter from './components/Counter';
+import beagle from './assets/beagle.jpeg';
+import bulldog from './assets/bulldog.jpeg';
+import cocker_spaniel from './assets/cocker_spaniel.jpeg';
+import german_shepherd from './assets/german_shepherd.jpeg';
+import labrador from './assets/labrador.jpeg';
 
 function App() {
   const pets = [
     {
-      image: 'https://images.wagwalkingweb.com/media/daily_wag/blog_articles/hero/1670938235.1927571/fun-facts-about-labrador-retrievers.jpg',
+      image: labrador,
       name: 'Goose',
       breed: 'Labrador',
       borderColor: 'red',
     },
     {
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Bulldog_inglese.jpg/1200px-Bulldog_inglese.jpg',
+      image: bulldog,
       name: 'Rambo',
       breed: 'Bulldog',
       borderColor: 'blue',
     },
     {
-      image: 'https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg',
+      image: german_shepherd,
       name: 'Rex',
       breed: 'German Shepherd',
       borderColor: 'green',
     },
     {
-      image: 'https://image.petmd.com/files/styles/863x625/public/2022-10/beagle-dog.jpg',
+      image: beagle,
       name: 'Charlie',
       breed: 'Beagle',
       borderColor: 'yellow',
     },
     {
-      image: 'https://media-be.chewy.com/wp-content/uploads/2021/05/05180433/Cocker-Spaniel_FeaturedImage-1024x615.jpg',
+      image: cocker_spaniel,
       name: 'Remi',
       breed: 'Cocker Spaniel',
       borderColor: 'orange',
